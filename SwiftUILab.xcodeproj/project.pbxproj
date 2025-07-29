@@ -4,4 +4,13 @@
 	classes = {
 	};
 	objectVersion = 77;
+	objects = {
+
+/* Begin PBXProject section */
+		36A8B1F00388F30B42893116 /* Project object */ = {
+			isa = PBXProject;
+		};
+/* End PBXProject section */
+	};
+	rootObject = 36A8B1F00388F30B42893116 /* Project object */;
 }
