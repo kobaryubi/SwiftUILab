@@ -13,6 +13,8 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 			};
+			buildConfigurationList = BF975A74A416B2E2B2A3B20B /* Build configuration list for PBXProject "SwiftUILab" */;
+			compatibilityVersion = "Xcode 14.0";
 		};
 /* End PBXProject section */
 	};
