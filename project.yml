@@ -1,1 +1,5 @@
 name: SwiftUILab
+targets:
+  SwiftUILab:
+    type: application
+    platform: iOS
