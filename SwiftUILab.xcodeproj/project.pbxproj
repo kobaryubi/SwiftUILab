@@ -11,6 +11,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 			};
 		};
 /* End PBXProject section */
