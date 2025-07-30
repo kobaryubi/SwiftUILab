@@ -5,3 +5,7 @@ targets:
   SwiftUILab:
     type: application
     platform: iOS
+    supportedDestinations: [iOS]
+    settings:
+      base:
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
