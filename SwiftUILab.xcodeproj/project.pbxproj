@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXGroup section */
+		C1378AC99FEC99471F6DF2FA = {
+			isa = PBXGroup;
+			children = (
+				718E8C390F6F4547A4207A72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXProject section */
@@ -20,6 +27,7 @@
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			mainGroup = C1378AC99FEC99471F6DF2FA;
 		};
 /* End PBXProject section */
 	};
