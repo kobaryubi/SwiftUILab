@@ -32,6 +32,9 @@
 		A3E69B963E579D5078342C93 /* SwiftUILab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA2709A9D2CD3578E1E3C357 /* Build configuration list for PBXNativeTarget "SwiftUILab" */;
+			buildPhases = (
+				DE3E3AF55B0CCCCC41036105 /* Sources */,
+			);
 		};
 /* End PBXNativeTarget section */
 
