@@ -39,6 +39,12 @@
 			);
 			dependencies = (
 			);
+			name = SwiftUILab;
+			packageProductDependencies = (
+			);
+			productName = SwiftUILab;
+			productReference = 395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
