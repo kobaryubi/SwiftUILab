@@ -41,6 +41,10 @@
 			mainGroup = C1378AC99FEC99471F6DF2FA;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
 		};
 /* End PBXProject section */
 	};
