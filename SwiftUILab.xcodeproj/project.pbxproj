@@ -28,6 +28,13 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		A3E69B963E579D5078342C93 /* SwiftUILab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2709A9D2CD3578E1E3C357 /* Build configuration list for PBXNativeTarget "SwiftUILab" */;
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		36A8B1F00388F30B42893116 /* Project object */ = {
 			isa = PBXProject;
