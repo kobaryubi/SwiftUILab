@@ -35,6 +35,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			mainGroup = C1378AC99FEC99471F6DF2FA;
+			minimizedProjectReferenceProxies = 1;
 		};
 /* End PBXProject section */
 	};
