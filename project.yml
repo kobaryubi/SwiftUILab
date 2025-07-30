@@ -6,8 +6,9 @@ targets:
     type: application
     platform: iOS
     supportedDestinations: [iOS]
+    deploymentTarget: 17.5
     settings:
       base:
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
         SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
-        TARGETED_DEVICE_FAMILY: "1"
+        TARGETED_DEVICE_FAMILY: 1
