@@ -35,6 +35,10 @@
 			buildPhases = (
 				DE3E3AF55B0CCCCC41036105 /* Sources */,
 			);
+			buildRules = (
+			);
+			dependencies = (
+			);
 		};
 /* End PBXNativeTarget section */
 
