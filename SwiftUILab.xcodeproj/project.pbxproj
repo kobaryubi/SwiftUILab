@@ -34,6 +34,10 @@
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
 			mainGroup = C1378AC99FEC99471F6DF2FA;
 			minimizedProjectReferenceProxies = 1;
 		};
