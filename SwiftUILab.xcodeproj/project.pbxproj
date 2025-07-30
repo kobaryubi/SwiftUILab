@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXGroup section */
+		718E8C390F6F4547A4207A72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C1378AC99FEC99471F6DF2FA = {
 			isa = PBXGroup;
 			children = (
