@@ -87,14 +87,14 @@
 		9F121BA6A0316F1A295D654F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		E3E775BFD302363A5718E630 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
