@@ -7,6 +7,7 @@ targets:
     platform: iOS
     supportedDestinations: [iOS]
     deploymentTarget: 17.5
+    sources: [SwiftUILab]
     settings:
       base:
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO

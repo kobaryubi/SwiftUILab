@@ -6,11 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9FE7C031DBD92C793E99296C /* SwiftUILabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		120223BAC2B9F6CAAA4FD7F0 /* SwiftUILab */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */,
+			);
+			path = SwiftUILab;
+			sourceTree = "<group>";
+		};
 		718E8C390F6F4547A4207A72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -22,6 +35,7 @@
 		C1378AC99FEC99471F6DF2FA = {
 			isa = PBXGroup;
 			children = (
+				120223BAC2B9F6CAAA4FD7F0 /* SwiftUILab */,
 				718E8C390F6F4547A4207A72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +93,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE7C031DBD92C793E99296C /* SwiftUILabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
