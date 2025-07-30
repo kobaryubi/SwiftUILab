@@ -44,6 +44,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				A3E69B963E579D5078342C93 /* SwiftUILab */,
 			);
 		};
 /* End PBXProject section */
@@ -71,6 +72,15 @@
 			buildConfigurations = (
 				9F121BA6A0316F1A295D654F /* Debug */,
 				E3E775BFD302363A5718E630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA2709A9D2CD3578E1E3C357 /* Build configuration list for PBXNativeTarget "SwiftUILab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF0262CBA076E28BA943D5C /* Debug */,
+				0D6A3BD982E812B8B5D1A832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
