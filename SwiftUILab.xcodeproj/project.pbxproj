@@ -48,6 +48,21 @@
 		};
 /* End PBXProject section */
 
+/* Begin XCBuildConfiguration section */
+		9F121BA6A0316F1A295D654F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E3E775BFD302363A5718E630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
 /* Begin XCConfigurationList section */
 		BF975A74A416B2E2B2A3B20B /* Build configuration list for PBXProject "SwiftUILab" */ = {
 			isa = XCConfigurationList;
