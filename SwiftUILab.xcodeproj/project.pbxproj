@@ -49,6 +49,15 @@
 /* End PBXProject section */
 
 /* Begin XCConfigurationList section */
+		BF975A74A416B2E2B2A3B20B /* Build configuration list for PBXProject "SwiftUILab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F121BA6A0316F1A295D654F /* Debug */,
+				E3E775BFD302363A5718E630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 36A8B1F00388F30B42893116 /* Project object */;
