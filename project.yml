@@ -1,4 +1,6 @@
 name: SwiftUILab
+options:
+  settingPresets: none
 targets:
   SwiftUILab:
     type: application
