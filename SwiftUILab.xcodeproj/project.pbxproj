@@ -6,10 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXFileReference section */
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		718E8C390F6F4547A4207A72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +54,18 @@
 /* End PBXProject section */
 
 /* Begin XCBuildConfiguration section */
+		0D6A3BD982E812B8B5D1A832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		8BF0262CBA076E28BA943D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
 		9F121BA6A0316F1A295D654F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
