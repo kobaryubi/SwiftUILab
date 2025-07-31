@@ -11,7 +11,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Release.xcconfig"; sourceTree = "<group>"; };
 		395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Debug.xcconfig"; sourceTree = "<group>"; };
 		CA70E212D41A9F29965EDDD4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		D4AC116E2BA032490E59207D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
@@ -39,6 +41,8 @@
 			children = (
 				D4AC116E2BA032490E59207D /* Debug.xcconfig */,
 				CA70E212D41A9F29965EDDD4 /* Release.xcconfig */,
+				701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */,
+				189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -114,6 +118,7 @@
 /* Begin XCBuildConfiguration section */
 		0D6A3BD982E812B8B5D1A832 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;
@@ -128,6 +133,7 @@
 		};
 		8BF0262CBA076E28BA943D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */;
 			buildSettings = {
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;

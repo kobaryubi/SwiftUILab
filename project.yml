@@ -12,6 +12,9 @@ targets:
     supportedDestinations: [iOS]
     deploymentTarget: 17.5
     sources: [SwiftUILab]
+    configFiles:
+      Debug: Configs/SwiftUILab-Debug.xcconfig
+      Release: Configs/SwiftUILab-Release.xcconfig
     settings:
       base:
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
