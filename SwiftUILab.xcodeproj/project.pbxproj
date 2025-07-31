@@ -126,6 +126,7 @@
 			baseConfigurationReference = 189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = TENQMTMR26;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -142,6 +143,7 @@
 			baseConfigurationReference = 701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = TENQMTMR26;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
