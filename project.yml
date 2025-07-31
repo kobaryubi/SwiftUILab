@@ -1,6 +1,7 @@
 name: SwiftUILab
 options:
   settingPresets: none
+  bundleIdPrefix: com.masahikokobayashi
 targets:
   SwiftUILab:
     type: application
