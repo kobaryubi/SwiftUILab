@@ -84,6 +84,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A3E69B963E579D5078342C93 = {
+						DevelopmentTeam = TENQMTMR26;
+					};
+				};
 			};
 			buildConfigurationList = BF975A74A416B2E2B2A3B20B /* Build configuration list for PBXProject "SwiftUILab" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -120,6 +125,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TENQMTMR26;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -135,6 +141,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TENQMTMR26;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILab;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
