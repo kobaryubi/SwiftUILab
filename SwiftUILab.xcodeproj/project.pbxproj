@@ -150,6 +150,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4AC116E2BA032490E59207D /* Debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -158,6 +159,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA70E212D41A9F29965EDDD4 /* Release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				SDKROOT = iphoneos;
 			};
 			name = Release;

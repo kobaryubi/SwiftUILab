@@ -1,4 +1,7 @@
 name: SwiftUILab
+settings:
+  base:
+    ALWAYS_SEARCH_USER_PATHS: NO
 options:
   settingPresets: none
   bundleIdPrefix: com.masahikokobayashi
