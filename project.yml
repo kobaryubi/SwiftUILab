@@ -2,6 +2,9 @@ name: SwiftUILab
 options:
   settingPresets: none
   bundleIdPrefix: com.masahikokobayashi
+configFiles:
+  Debug: Configs/Debug.xcconfig
+  Release: Configs/Release.xcconfig
 targets:
   SwiftUILab:
     type: application

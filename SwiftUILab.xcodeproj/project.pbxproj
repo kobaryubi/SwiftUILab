@@ -11,9 +11,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B5CE24A93D58F5401221175 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		25FF5DDAD474346E77D7E0A8 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA70E212D41A9F29965EDDD4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D4AC116E2BA032490E59207D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,9 +34,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		97DC43A1DD5E2F6BAEF7B789 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				D4AC116E2BA032490E59207D /* Debug.xcconfig */,
+				CA70E212D41A9F29965EDDD4 /* Release.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
 		C1378AC99FEC99471F6DF2FA = {
 			isa = PBXGroup;
 			children = (
+				97DC43A1DD5E2F6BAEF7B789 /* Configs */,
 				120223BAC2B9F6CAAA4FD7F0 /* SwiftUILab */,
 				718E8C390F6F4547A4207A72 /* Products */,
 			);
@@ -132,6 +142,7 @@
 		};
 		9F121BA6A0316F1A295D654F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AC116E2BA032490E59207D /* Debug.xcconfig */;
 			buildSettings = {
 				SDKROOT = iphoneos;
 			};
@@ -139,6 +150,7 @@
 		};
 		E3E775BFD302363A5718E630 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA70E212D41A9F29965EDDD4 /* Release.xcconfig */;
 			buildSettings = {
 				SDKROOT = iphoneos;
 			};
