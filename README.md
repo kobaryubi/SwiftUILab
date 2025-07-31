@@ -16,5 +16,7 @@ mint run xcodegen generate
 ## xcodebuild
 
 ```sh
-xcodebuild build
+xcodebuild \
+    -target SwiftUILab \
+    build
 ```
