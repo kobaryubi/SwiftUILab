@@ -12,3 +12,9 @@ mint bootstrap
 ```sh
 mint run xcodegen generate
 ```
+
+## xcodebuild
+
+```sh
+xcodebuild build
+```
