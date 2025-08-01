@@ -13,6 +13,13 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES"
             buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A3E69B963E579D5078342C93"
+               BuildableName = "SwiftUILab.app"
+               BlueprintName = "SwiftUILab"
+               ReferencedContainer = "container:SwiftUILab.xcodeproj">
+            </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
