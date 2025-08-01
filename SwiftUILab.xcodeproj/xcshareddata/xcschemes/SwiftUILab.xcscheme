@@ -6,6 +6,14 @@
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES"
       runPostActionsOnFailure = "NO">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
 </Scheme>
