@@ -16,14 +16,18 @@ mint run xcodegen generate
 ## xcodebuild
 
 ```sh
+xcodebuild -showsdks
 xcodebuild -showdestinations -scheme SwiftUILab
-xcodebuild -target SwiftUILab build
+
+# Simulator
+xcodebuild -target SwiftUILab -sdk iphonesimulator18.5 -destination 'platform=iOS Simulator,id=4EA2495F-FB61-4C94-AF9E-A83EC03C6233' build
 xcodebuild clean
 ```
 
 ## xcrun
 
 ```sh
-xcrun simctl install booted ./build/Debug-iphoneos/SwiftUILab.app
+# Simulator
+xcrun simctl install booted ./build/Debug-iphonesimulator/SwiftUILab.app
 xcrun simctl launch booted com.masahikokobayashi.SwiftUILab
 ```
