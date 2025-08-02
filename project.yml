@@ -2,6 +2,11 @@ name: SwiftUILab
 settings:
   base:
     ALWAYS_SEARCH_USER_PATHS: NO
+  configs:
+    debug:
+      SWIFT_OPTIMIZATION_LEVEL: -Onone
+    release:
+      SWIFT_OPTIMIZATION_LEVEL: -O
 options:
   settingPresets: none
   bundleIdPrefix: com.masahikokobayashi
