@@ -20,8 +20,8 @@ xcodebuild -showsdks
 xcodebuild -showdestinations -scheme SwiftUILab
 
 # Simulator
-xcodebuild -target SwiftUILab -sdk iphonesimulator18.5 -destination 'platform=iOS Simulator,id=4EA2495F-FB61-4C94-AF9E-A83EC03C6233' build
 xcodebuild clean
+xcodebuild -target SwiftUILab -sdk iphonesimulator18.5 -destination 'platform=iOS Simulator,id=4EA2495F-FB61-4C94-AF9E-A83EC03C6233' build
 ```
 
 ## xcrun
