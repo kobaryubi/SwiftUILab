@@ -23,5 +23,6 @@
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
-   <LaunchAction></LaunchAction>
+   <LaunchAction buildConfiguration = "Debug">
+   </LaunchAction>
 </Scheme>
