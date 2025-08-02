@@ -2,6 +2,7 @@ name: SwiftUILab
 settings:
   base:
     ALWAYS_SEARCH_USER_PATHS: NO
+    COPY_PHASE_STRIP: NO
   configs:
     debug:
       SWIFT_OPTIMIZATION_LEVEL: -Onone
@@ -14,6 +15,11 @@ options:
 configFiles:
   Debug: Configs/Debug.xcconfig
   Release: Configs/Release.xcconfig
+schemes:
+  SwiftUILab:
+    build:
+      targets:
+        SwiftUILab: all
 targets:
   SwiftUILab:
     type: application
