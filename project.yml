@@ -6,9 +6,11 @@ settings:
   configs:
     debug:
       SWIFT_OPTIMIZATION_LEVEL: -Onone
+      DEBUG_INFORMATION_FORMAT: dwarf
     release:
       SWIFT_OPTIMIZATION_LEVEL: -O
       SWIFT_COMPILATION_MODE: wholemodule
+      DEBUG_INFORMATION_FORMAT: dwarf-with-dsym
 options:
   settingPresets: none
   bundleIdPrefix: com.masahikokobayashi
