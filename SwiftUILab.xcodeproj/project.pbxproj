@@ -11,6 +11,23 @@
 		F84E5000E427CB4FD41558F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC818C69F1E4295E47E0DA /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		128BEEED7BB065594796CC92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A8B1F00388F30B42893116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E69B963E579D5078342C93;
+			remoteInfo = SwiftUILab;
+		};
+		BCF544639FCC40587EC19E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36A8B1F00388F30B42893116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3E69B963E579D5078342C93;
+			remoteInfo = SwiftUILab;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		13AC818C69F1E4295E47E0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Release.xcconfig"; sourceTree = "<group>"; };
