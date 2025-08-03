@@ -201,11 +201,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BDD3DB8AA5C02CF8F068CBB8 /* Build configuration list for PBXNativeTarget "SwiftUILabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75B879D7FFDEA5EBD692FD62 /* Debug */,
+				706116F36EA2AF7031FB3418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		BF975A74A416B2E2B2A3B20B /* Build configuration list for PBXProject "SwiftUILab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F121BA6A0316F1A295D654F /* Debug */,
 				E3E775BFD302363A5718E630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1BB85A289071DFF4EFA5D17 /* Build configuration list for PBXNativeTarget "SwiftUILabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1F6E3AC7BA4ECCBAC10211 /* Debug */,
+				99E417E750D6549CB4998808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
