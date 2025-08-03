@@ -170,9 +170,6 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					1B04579325CAB4763EC5B055 = {
-						TestTargetID = A3E69B963E579D5078342C93;
-					};
 					A3E69B963E579D5078342C93 = {
 						DevelopmentTeam = TENQMTMR26;
 					};
