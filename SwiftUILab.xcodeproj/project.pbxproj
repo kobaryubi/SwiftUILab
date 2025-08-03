@@ -118,6 +118,8 @@
 			projectRoot = "";
 			targets = (
 				A3E69B963E579D5078342C93 /* SwiftUILab */,
+				14EF86E149140E54C65F0829 /* SwiftUILabTests */,
+				1B04579325CAB4763EC5B055 /* SwiftUILabUITests */,
 			);
 		};
 /* End PBXProject section */
