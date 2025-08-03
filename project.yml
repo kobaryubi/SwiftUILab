@@ -44,10 +44,12 @@ targets:
   SwiftUILabTests:
     type: bundle.unit-test
     platform: iOS
+    sources: [SwiftUILabTests]
     dependencies:
       - target: SwiftUILab
   SwiftUILabUITests:
     type: bundle.ui-testing
     platform: iOS
+    sources: [SwiftUILabUITests]
     dependencies:
       - target: SwiftUILab
