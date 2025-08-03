@@ -92,6 +92,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A1039192699E04CF4C97CFB1 /* PBXTargetDependency */,
 			);
 			name = SwiftUILabTests;
 			packageProductDependencies = (
@@ -109,6 +110,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				36999C9B5989637AFC64B28A /* PBXTargetDependency */,
 			);
 			name = SwiftUILabUITests;
 			packageProductDependencies = (
@@ -194,6 +196,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36999C9B5989637AFC64B28A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E69B963E579D5078342C93 /* SwiftUILab */;
+			targetProxy = BCF544639FCC40587EC19E9F /* PBXContainerItemProxy */;
+		};
+		A1039192699E04CF4C97CFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3E69B963E579D5078342C93 /* SwiftUILab */;
+			targetProxy = 128BEEED7BB065594796CC92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0D6A3BD982E812B8B5D1A832 /* Release */ = {
