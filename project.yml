@@ -41,3 +41,6 @@ targets:
         DEVELOPMENT_TEAM: TENQMTMR26
         GENERATE_INFOPLIST_FILE: YES
         PRODUCT_NAME: $(TARGET_NAME)
+  SwiftUILabTests:
+    type: bundle.unit-test
+    platform: iOS
