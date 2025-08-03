@@ -44,3 +44,6 @@ targets:
   SwiftUILabTests:
     type: bundle.unit-test
     platform: iOS
+  SwiftUILabUITests:
+    type: bundle.ui-testing
+    platform: iOS
