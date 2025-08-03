@@ -68,9 +68,33 @@
 /* Begin PBXNativeTarget section */
 		14EF86E149140E54C65F0829 /* SwiftUILabTests */ = {
 			isa = PBXNativeTarget;
+			buildConfigurationList = D1BB85A289071DFF4EFA5D17 /* Build configuration list for PBXNativeTarget "SwiftUILabTests" */;
+			buildPhases = (
+				0A839F57694F52FDEFD46340 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUILabTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUILabTests;
 		};
 		1B04579325CAB4763EC5B055 /* SwiftUILabUITests */ = {
 			isa = PBXNativeTarget;
+			buildConfigurationList = BDD3DB8AA5C02CF8F068CBB8 /* Build configuration list for PBXNativeTarget "SwiftUILabUITests" */;
+			buildPhases = (
+				B6AE9A09760CFE2623325115 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUILabUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUILabUITests;
 		};
 		A3E69B963E579D5078342C93 /* SwiftUILab */ = {
 			isa = PBXNativeTarget;
