@@ -261,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.1;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = SwiftUILab;
@@ -271,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.1;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = SwiftUILab;
@@ -299,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.1;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";
@@ -334,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 6.1;
 				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";

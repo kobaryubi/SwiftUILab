@@ -51,6 +51,7 @@ targets:
       base:
         SWIFT_VERSION: 6.1
         TARGETED_DEVICE_FAMILY: 1
+        PRODUCT_NAME: $(TARGET_NAME)
   SwiftUILabUITests:
     type: bundle.ui-testing
     platform: iOS
@@ -61,3 +62,4 @@ targets:
       base:
         SWIFT_VERSION: 6.1
         TARGETED_DEVICE_FAMILY: 1
+        PRODUCT_NAME: $(TARGET_NAME)
