@@ -197,6 +197,18 @@
 			};
 			name = Release;
 		};
+		706116F36EA2AF7031FB3418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		75B879D7FFDEA5EBD692FD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
 		8BF0262CBA076E28BA943D5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */;
@@ -214,6 +226,12 @@
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
+		};
+		99E417E750D6549CB4998808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
 		};
 		9F121BA6A0316F1A295D654F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -239,6 +257,12 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
+		};
+		FC1F6E3AC7BA4ECCBAC10211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
