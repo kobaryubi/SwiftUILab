@@ -261,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				SWIFT_VERSION = 6.1;
 				TEST_TARGET_NAME = SwiftUILab;
 			};
 			name = Release;
@@ -269,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				SWIFT_VERSION = 6.1;
 				TEST_TARGET_NAME = SwiftUILab;
 			};
 			name = Debug;
@@ -295,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				SWIFT_VERSION = 6.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";
 			};
 			name = Release;
@@ -328,6 +331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				SWIFT_VERSION = 6.1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";
 			};
 			name = Debug;

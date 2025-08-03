@@ -47,9 +47,15 @@ targets:
     sources: [SwiftUILabTests]
     dependencies:
       - target: SwiftUILab
+    settings:
+      base:
+        SWIFT_VERSION: 6.1
   SwiftUILabUITests:
     type: bundle.ui-testing
     platform: iOS
     sources: [SwiftUILabUITests]
     dependencies:
       - target: SwiftUILab
+    settings:
+      base:
+        SWIFT_VERSION: 6.1
