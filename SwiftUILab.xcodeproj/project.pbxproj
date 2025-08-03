@@ -14,7 +14,9 @@
 /* Begin PBXFileReference section */
 		13AC818C69F1E4295E47E0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Release.xcconfig"; sourceTree = "<group>"; };
+		1DA41D4502BAB196ABB4D62C /* SwiftUILabTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiftUILabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB8EDA1CFEC13C9059D12AE /* SwiftUILabUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiftUILabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Debug.xcconfig"; sourceTree = "<group>"; };
 		CA70E212D41A9F29965EDDD4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		D4AC116E2BA032490E59207D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -35,6 +37,8 @@
 			isa = PBXGroup;
 			children = (
 				395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */,
+				1DA41D4502BAB196ABB4D62C /* SwiftUILabTests.xctest */,
+				5EB8EDA1CFEC13C9059D12AE /* SwiftUILabUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
