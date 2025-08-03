@@ -232,12 +232,16 @@
 		706116F36EA2AF7031FB3418 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				TEST_TARGET_NAME = SwiftUILab;
 			};
 			name = Release;
 		};
 		75B879D7FFDEA5EBD692FD62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabUITests;
+				TEST_TARGET_NAME = SwiftUILab;
 			};
 			name = Debug;
 		};
@@ -262,6 +266,8 @@
 		99E417E750D6549CB4998808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";
 			};
 			name = Release;
 		};
@@ -293,6 +299,8 @@
 		FC1F6E3AC7BA4ECCBAC10211 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				PRODUCT_BUNDLE_IDENTIFIER = com.masahikokobayashi.SwiftUILabTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILab.app/SwiftUILab";
 			};
 			name = Debug;
 		};
