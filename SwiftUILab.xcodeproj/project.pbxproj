@@ -80,6 +80,8 @@
 			packageProductDependencies = (
 			);
 			productName = SwiftUILabTests;
+			productReference = 1DA41D4502BAB196ABB4D62C /* SwiftUILabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		1B04579325CAB4763EC5B055 /* SwiftUILabUITests */ = {
 			isa = PBXNativeTarget;
@@ -95,6 +97,8 @@
 			packageProductDependencies = (
 			);
 			productName = SwiftUILabUITests;
+			productReference = 5EB8EDA1CFEC13C9059D12AE /* SwiftUILabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		A3E69B963E579D5078342C93 /* SwiftUILab */ = {
 			isa = PBXNativeTarget;
