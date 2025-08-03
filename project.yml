@@ -50,6 +50,7 @@ targets:
     settings:
       base:
         SWIFT_VERSION: 6.1
+        TARGETED_DEVICE_FAMILY: 1
   SwiftUILabUITests:
     type: bundle.ui-testing
     platform: iOS
@@ -59,3 +60,4 @@ targets:
     settings:
       base:
         SWIFT_VERSION: 6.1
+        TARGETED_DEVICE_FAMILY: 1
