@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0098A1BE53D91351458D696E /* SwiftUILabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5C14BD5A6FB5DDD74C62F /* SwiftUILabUITestsLaunchTests.swift */; };
 		9FE7C031DBD92C793E99296C /* SwiftUILabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */; };
-		C66DEDE5E50259E8460A6B41 /* SwiftUILabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0ED166E842FBF18D2FA111 /* SwiftUILabUITests.swift */; };
 		F84E5000E427CB4FD41558F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13AC818C69F1E4295E47E0DA /* ContentView.swift */; };
-		FB66EA67CF2FC1AA094069EC /* SwiftUILabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0331F42BD8E76C23C7B3E722 /* SwiftUILabTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,19 +29,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0331F42BD8E76C23C7B3E722 /* SwiftUILabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabTests.swift; sourceTree = "<group>"; };
 		13AC818C69F1E4295E47E0DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189A7D63A1E3246F2DE40B00 /* SwiftUILab-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Release.xcconfig"; sourceTree = "<group>"; };
 		1DA41D4502BAB196ABB4D62C /* SwiftUILabTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiftUILabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		395CF46F0EF35E80860B9AA2 /* SwiftUILab.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B5C14BD5A6FB5DDD74C62F /* SwiftUILabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5EB8EDA1CFEC13C9059D12AE /* SwiftUILabUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SwiftUILabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701663D81C7CEC52857150BE /* SwiftUILab-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SwiftUILab-Debug.xcconfig"; sourceTree = "<group>"; };
-		8D0ED166E842FBF18D2FA111 /* SwiftUILabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabUITests.swift; sourceTree = "<group>"; };
 		CA70E212D41A9F29965EDDD4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		D4AC116E2BA032490E59207D /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3772FB503AA1906B334504EE /* SwiftUILabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = SwiftUILabTests;
+			sourceTree = "<group>";
+		};
+		59A5889AAE9F0961200D06A0 /* SwiftUILabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = SwiftUILabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXGroup section */
 		120223BAC2B9F6CAAA4FD7F0 /* SwiftUILab */ = {
@@ -54,15 +69,6 @@
 				F7ED54327AE501FCA4CE4AF2 /* SwiftUILabApp.swift */,
 			);
 			path = SwiftUILab;
-			sourceTree = "<group>";
-		};
-		4802C343531919A0895F7B67 /* SwiftUILabUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8D0ED166E842FBF18D2FA111 /* SwiftUILabUITests.swift */,
-				47B5C14BD5A6FB5DDD74C62F /* SwiftUILabUITestsLaunchTests.swift */,
-			);
-			path = SwiftUILabUITests;
 			sourceTree = "<group>";
 		};
 		718E8C390F6F4547A4207A72 /* Products */ = {
@@ -86,21 +92,13 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
-		B22B0E50FFBB17C8DB80A3D1 /* SwiftUILabTests */ = {
-			isa = PBXGroup;
-			children = (
-				0331F42BD8E76C23C7B3E722 /* SwiftUILabTests.swift */,
-			);
-			path = SwiftUILabTests;
-			sourceTree = "<group>";
-		};
 		C1378AC99FEC99471F6DF2FA = {
 			isa = PBXGroup;
 			children = (
+				3772FB503AA1906B334504EE /* SwiftUILabTests */,
+				59A5889AAE9F0961200D06A0 /* SwiftUILabUITests */,
 				97DC43A1DD5E2F6BAEF7B789 /* Configs */,
 				120223BAC2B9F6CAAA4FD7F0 /* SwiftUILab */,
-				B22B0E50FFBB17C8DB80A3D1 /* SwiftUILabTests */,
-				4802C343531919A0895F7B67 /* SwiftUILabUITests */,
 				718E8C390F6F4547A4207A72 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,6 +117,9 @@
 			dependencies = (
 				A1039192699E04CF4C97CFB1 /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				3772FB503AA1906B334504EE /* SwiftUILabTests */,
+			);
 			name = SwiftUILabTests;
 			packageProductDependencies = (
 			);
@@ -136,6 +137,9 @@
 			);
 			dependencies = (
 				36999C9B5989637AFC64B28A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				59A5889AAE9F0961200D06A0 /* SwiftUILabUITests */,
 			);
 			name = SwiftUILabUITests;
 			packageProductDependencies = (
@@ -201,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB66EA67CF2FC1AA094069EC /* SwiftUILabTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C66DEDE5E50259E8460A6B41 /* SwiftUILabUITests.swift in Sources */,
-				0098A1BE53D91351458D696E /* SwiftUILabUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

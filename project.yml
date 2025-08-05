@@ -44,7 +44,9 @@ targets:
   SwiftUILabTests:
     type: bundle.unit-test
     platform: iOS
-    sources: [SwiftUILabTests]
+    sources: 
+      - path: SwiftUILabTests
+        type: syncedFolder
     dependencies:
       - target: SwiftUILab
     settings:
@@ -55,7 +57,9 @@ targets:
   SwiftUILabUITests:
     type: bundle.ui-testing
     platform: iOS
-    sources: [SwiftUILabUITests]
+    sources:
+      - path: SwiftUILabUITests
+        type: syncedFolder
     dependencies:
       - target: SwiftUILab
     settings:
