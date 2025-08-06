@@ -22,6 +22,10 @@ schemes:
     build:
       targets:
         SwiftUILab: all
+    test:
+      testPlans:
+        - path: SwiftUILab.xctestplan
+          defaultPlan: true
 targets:
   SwiftUILab:
     type: application
